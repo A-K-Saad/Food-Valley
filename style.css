@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 25px 0;
+}
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    margin: 25px 0;
+    text-align: center;
+}
+p, a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.wrapper{
+    width: 100%;
+}
+.container{
+    width: 85%;
+    margin: 35px auto;
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding: 40px 20px;
+}
+.orange-color{
+    color: orange;
+}
+#intro-text{
+    color: #5e6469;
+    padding: 20px 0;
+    text-align: justify;
+}
+#intro-text p{
+    padding: 15px 0;
+}
+.web-link{
+    color: #fff;
+    padding: 13px 25px;
+    background-image: linear-gradient(#e64412, #fa920b);
+    border-radius: 25px;
+    box-shadow: 2px 2px 8px #f0660b;
+}
+.my-img-section{
+    width: 50%;
+    padding: 0;
+}
+.my-img{
+    height: 100%;
+}
+.about-me{
+    background-image: url(images/shapes/Frame-01.jpg);
+    background-size: cover;
+    margin: 20px 0;
+    color: #5e6469;
+}
+.about-me p{
+    margin-bottom: 25%;
+    text-align: justify;
+}
+.recipie-title{
+    text-align: center;
+    color: #5e6469;
+    width: 67%;
+    margin: 0 auto;
+}
+.single-recipe{
+    width: 30%;
+    margin: 25px;
+    padding: 15px;
+    padding-bottom: 3%;
+    box-shadow: -2px -2px 20px #d8d8d8;
+    border-radius: 15px;
+}
+.single-recipe img{
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+}
+.single-recipe p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.food-link{
+    color: #fff;
+    padding: 10px 35px;
+    background-image: linear-gradient(#f75b75, #ff0062);
+    border-radius: 25px;
+    margin-left: 31%;
+}
+.followers{
+    box-shadow: 0 0 20px #d8d8d8;
+    display: flex;
+    border-radius: 12px;
+    padding: 10px 0;
+    width: 81.5%;
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+.single-follow{
+    width: 30%;
+    text-align: center;
+    margin: 0 20px;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer p{
+    color: #fff;
+}
+footer h1{
+    color: #5e6469;
+}
+.footer-part{
+    margin: 0 auto;
+    text-align: center;
+}
+.copy-right{
+    margin-top: 5%;
+}
